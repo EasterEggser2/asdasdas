@@ -49,7 +49,7 @@ export default function InscripcionForm({ isOpen, onClose }: { isOpen: boolean; 
       <form onSubmit={handleSubmit} className="w-full bg-[#1f374f] rounded-xl overflow-hidden shadow-2xl">
 
         {/* Banner Superior Proporcional */}
-        <div className="w-full h-[15vh] md:h-[20vh] bg-cover bg-center border-b border-[#dfb760]/30" style={{ backgroundImage: 'url("/img/1.png")' }} />
+        <div className="w-full h-[15vh] md:h-[20vh] bg-cover bg-center border-b border-[#dfb760]/30" style={{ backgroundImage: 'url("/img/1.webp")' }} />
 
         <div className="flex flex-col gap-[2vh] p-[5vw] md:p-[2.5vw]">
           <h1 className="text-[5vw] md:text-[1.5vw] text-center text-[#dfb760] font-black uppercase tracking-[0.2em]">
@@ -94,7 +94,7 @@ export default function InscripcionForm({ isOpen, onClose }: { isOpen: boolean; 
           <input name="twitch" placeholder="Usuario de Twitch" onInput={handleChange} className={inputCls("twitch")} />
 
           {/* Banner Inferior Proporcional */}
-          <div className="h-[8vh] md:h-[12vh] w-full bg-cover bg-center opacity-80 rounded-[1vw] border border-white/5" style={{ backgroundImage: 'url("/img/2.png")' }} />
+          <div className="h-[8vh] md:h-[12vh] w-full bg-cover bg-center opacity-80 rounded-[1vw] border border-white/5" style={{ backgroundImage: 'url("/img/1.webp")' }} />
 
           {/* Botones */}
           <div className="grid grid-cols-2 gap-[1.5vw] mt-[1vh]">
