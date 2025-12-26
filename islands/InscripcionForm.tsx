@@ -2,7 +2,7 @@ import { useState } from "preact/hooks";
 import { JSX } from "preact";
 import Modal from "../components/Modal.tsx";
 
-const FORM_URL = "https://docs.google.com/forms/d/e/1Qmr06enBp4CGGCP7REwN5LOhX0qYK7PzLD2KyqyYwno/formResponse";
+const FORM_URL = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSfpi2FGlmsDNoq-9s2vXQgPM-94sTsG_qRPvkCuEiySGbCMwQ/formResponse";
 
 type FormState = { riotId: string; region: string; twitch: string; streameas: string; discord: string; };
 
