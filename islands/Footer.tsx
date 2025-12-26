@@ -60,10 +60,10 @@ export default function Footer() {
         <div className="flex flex-col items-center md:items-end">
           <div className="flex items-center gap-4 md:gap-[1.2vw]">
             {[
-              { href: "https://www.twitch.tv", src: "/img/Twitch.svg", alt: "Twitch" },
-              { href: "https://www.instagram.com", src: "/img/Instagram.svg", alt: "Instagram" },
-              { href: "https://www.tiktok.com", src: "/img/TikTok.svg", alt: "TikTok" },
-              { href: "https://www.youtube.com", src: "/img/YouTube.svg", alt: "YouTube" }
+              { href: "https://www.twitch.tv/betomin", src: "/img/Twitch.svg", alt: "Twitch" },
+              { href: "https://www.instagram.com/betomin._/", src: "/img/Instagram.svg", alt: "Instagram" },
+              { href: "https://www.tiktok.com/@betominok", src: "/img/TikTok.svg", alt: "TikTok" },
+              { href: "https://www.youtube.com/@betomin23", src: "/img/YouTube.svg", alt: "YouTube" }
             ].map((social) => (
               <a
                 key={social.alt}
